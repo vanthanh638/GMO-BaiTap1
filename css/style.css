@@ -1,0 +1,144 @@
+.header-top {
+    height: 80px;
+    margin: 0px 10px;
+    background: #f1f1f1;
+}
+.logo {
+    float: left;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    width: 17%;
+    margin: 10px 0px 10px 10px;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 30px;
+    background: #FFFFFF;
+    color: red;
+}
+.logo a {
+    color: red;
+}
+.search {
+    float: right;
+    margin-right: 10px;
+}
+#search {
+    background: url(../images/search.png) no-repeat scroll 7px 7px;
+    background-position: right;
+    background-size: 20px;
+    width: 100%;
+    height: 20px;
+}
+.menu {
+    float: right;
+    margin-right: 10px;
+}
+.menu ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.menu ul li a{
+    color: #6BB7E6;
+}
+ul {
+     list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.header .section {
+    border: 2px solid #9999CA;
+    text-align: center;
+    margin: 10px;
+    background: #9999CA;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+}
+.section ul li{
+    display: inline-block;
+    margin: 5px 20px
+}
+.left {
+    float: left;
+    margin-left: 10px;
+    width: 18%;
+    background-color: #f2f2f2;
+    border: 1px solid #e7e7e7;
+    text-align: left;
+}
+.left ul li{
+    padding: 5px 0px;
+}
+.left ul li a{
+    display: block;
+}
+.form {
+    float: left;
+    text-align: center;
+    margin: 0px 1% ;
+    width: 60%;
+    border:2px solid blue;
+}
+.form span {
+    font-size: 25px;
+}
+.resiger {
+    padding: 20px 0px 50px 0px;
+}
+.resiger table {
+    margin-bottom: 20px;
+    margin: 20px auto;
+}
+.resiger table tr td{
+    height: 20px;
+}
+.resiger table tr td input[type="text"], input[type="password"]{
+    width: 250px;
+    height: 24px;
+    box-sizing: border-box;
+}
+#submit {
+    background-color: #1b821b;
+    color: white;
+    width: 100px;
+    height:  40px;
+    font-size:  18px;
+    border: none;
+    font-weight: bold;
+}
+#reset {
+    background-color: #2196F6;
+    color: white;
+    width: 100px;
+    height:  40px;
+    font-size:  18px;
+    border: none;
+    font-weight: bold;
+}
+.right {
+    float: left;
+    width: 18%;
+}
+.right ul li{
+    padding: 5px 0px;
+}
+.feature {
+    height: 350px;
+    border: 2px solid blue;
+    text-align: left;
+}
+.external-link {
+    margin-top: 10px;
+    height: 135px;
+    border: 2px solid blue;
+    text-align: left;
+}
+.erro {
+    text-align: left;
+    color: red;
+}
+.clear {
+    clear: both;
+}

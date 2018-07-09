@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bai Tap Thuc Hanh JAVASCRIPT</title>
+        <meta charset="utf-8">
+        <link rel="icon" type="image/x-icon" href="images/bkdn.png">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+    <div class="header">
+        <div class="header-top">
+            <div class="logo">
+                <a href="#"><span>GMO-Z.com</span></a>
+            </div>
+            <div class="menu">
+                <div>
+                    <ul>
+                        <li><a href="#">Topic 1</a></li>
+                        <li><a href="#">Topic 2</a></li>
+                        <li><a href="#">Topic 3</a></li>
+                        <li><a href="#">Topic 4</a></li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <form class="form-search">
+                        <input type="text" id="search" name="search" placeholder="Search">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="section">
+            <ul>
+                <li><a href="#">Section 1</a></li>
+                <li><a href="#">Section 2</a></li>
+                <li><a href="#">Section 3</a></li>
+                <li><a href="#">Section 4</a></li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="container">
+        <div class="left">
+            <ul>
+                <li><a href="#">Section 1</a></li>
+                <li><a href="#">Section 2</a></li>
+                <li><a href="#">Section 3</a></li>
+                <li><a href="#">Section 4</a></li>
+                <li><a href="#">Section 5</a></li>
+                <li><a href="#">Section 6</a></li>
+                <li><a href="#">Section 7</a></li>
+                <li><a href="#">Section 8</a></li>
+                <li><a href="#">Section 9</a></li>
+                <li><a href="#">Section 10</a></li>
+                <li><a href="#">Section 11</a></li>
+                <li><a href="#">Section 12</a></li>
+                <li><a href="#">Section 13</a></li>
+                <li><a href="#">Section 14</a></li>
+                <li><a href="#">Section 15</a></li>
+            </ul>
+        </div>
+        <div class="form">
+            <form class="resiger" action="#" method="post" onsubmit="return validateForm()">
+                <span>Resiger</span>
+                <br>
+                <table>
+                    <tr>
+                        <td style="text-align: right;"><label for="email">Email (*)</label></td>
+                        <td><input type="text" name="email" id="email" placeholder="Email" onchange="vaildateEmail()"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><label id="erro_email" class="erro"></label></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;"><label for="password">Password (*)</label></td>
+                        <td><input type="Password" name="password" id="password" placeholder="Password" onchange="validatePassword()"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><label id="erro_password" class="erro"></label></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;"><label for="mobile">Mobile (*)</label></td>
+                        <td><input type="text" name="mobile" id="mobile" placeholder="02363-123-123" onchange="validateMobile()"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><label id="erro_mobile" class="erro"></label></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;"><label for="birthday">Birthday (*)</label></td>
+                        <td><input type="text" name="birthday" id="birthday" placeholder="dd-mm-yyyy" onchange="validateBirthday()"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><label id="erro_birthday" class="erro"></label></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;"><label for="money">Money (*)</label></td>
+                        <td><input type="text" name="money" id="money" placeholder="200,000" onkeyup="inputMoney()" onchange="validateMoney()"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><label id="erro_money" class="erro"></label></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;"><label for="address">Address</label></td>
+                        <td><input type="text" name="address" id="address" placeholder="Address"></td>
+                    </tr>
+                </table>
+                <input type="submit" name="submit" value="Submit" id="submit">
+                <input type="reset" name="reset" value="Reset" id="reset" onclick="resets()">
+            </form>
+        </div>
+        <div class="right">
+            <div class="feature">
+                <ul>
+                    <li><a href="#">Feature 1</a></li>
+                    <li><a href="#">Feature 2</a></li>
+                    <li><a href="#">Feature 3</a></li>
+                    <li><a href="#">Feature 4</a></li>
+                    <li><a href="#">Feature 5</a></li>
+                    <li><a href="#">Feature 6</a></li>
+                </ul>
+            </div>
+            <div class="external-link">
+                <a href="">External Link</a>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
